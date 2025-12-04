@@ -7,27 +7,28 @@
 Detta är den **rekommenderade standardkonfigurationen** av OFFLINE-AI.  
 Alla avancerade, experimentella och potentiellt riskfyllda funktioner är:
 
-> ❌ AVSTÄNGDA SOM STANDARD
+> ❌ **AVSTÄNGDA SOM STANDARD**
 
 Systemet är:
-- ✅ 100% offline
-- ✅ Lokalt
-- ✅ Utan moln
-- ✅ Utan telemetri
-- ✅ Utan fjärrstyrning
-- ✅ Utan automatisk nedladdning
+
+- ✅ 100% offline  
+- ✅ Lokalt  
+- ✅ Utan moln  
+- ✅ Utan telemetri  
+- ✅ Utan fjärrstyrning  
+- ✅ Utan automatisk nedladdning  
 
 ---
 
 ## ✅ Vad fungerar direkt?
 
-- Lokalt AI-system
-- Offline-drift
-- Stöd för lokala modeller
-- Säker start utan internet
-- Ingen plugin-körning
-- Ingen auto-update
-- Ingen bakgrundsövervakning
+- Lokalt AI-system  
+- Offline-drift  
+- Stöd för lokala modeller  
+- Säker start utan internet  
+- Ingen plugin-körning  
+- Ingen auto-update  
+- Ingen bakgrundsövervakning  
 
 ---
 
@@ -45,15 +46,15 @@ python launcher.py
 
 Alla funktioner nedan finns installerade i systemet men är **AV** tills användaren själv aktiverar dem:
 
-- Plugins
-- Web Dashboard (lokal)
-- System Monitor
-- License-system
-- Auto-update
-- GPU-detektion
-- Cloud bridge
-- Modell-nedladdare
-- Telemetri
+- Plugins  
+- Web Dashboard (lokal)  
+- System Monitor  
+- License-system  
+- Auto-update  
+- GPU-detektion  
+- Cloud bridge  
+- Modell-nedladdare  
+- Telemetri  
 
 Styrs via:
 ```
@@ -70,7 +71,7 @@ python launcher_gui.py
 
 Detta paket innehåller **HELA systemet med ALLA funktioner**, men fortfarande med:
 
-> ✅ SAFE DEFAULT – allt är AV som standard
+> ✅ **SAFE DEFAULT – allt är AV som standard**
 
 Användaren väljer själv exakt vad som ska aktiveras.
 
@@ -78,17 +79,17 @@ Användaren väljer själv exakt vad som ska aktiveras.
 
 ## 🧩 Innehåll i ALL FEATURES-versionen
 
-- Flask Web Dashboard (lokal)
-- Model Manager CLI
-- Plugin-system (sandboxed)
-- Plugin Manager
-- Offline License Generator & Checker
-- System Monitor (psutil)
-- Portable Mode
-- GUI Launcher
-- PyInstaller EXE Builder
-- Inno Setup & NSIS Installer-exempel
-- Plugin Marketplace (lokal)
+- Flask Web Dashboard (lokal)  
+- Model Manager CLI  
+- Plugin-system (sandboxed)  
+- Plugin Manager  
+- Offline License Generator & Checker  
+- System Monitor (psutil)  
+- Portable Mode  
+- GUI Launcher  
+- PyInstaller EXE Builder  
+- Inno Setup & NSIS Installer-exempel  
+- Plugin Marketplace (lokal)  
 
 ---
 
@@ -191,11 +192,11 @@ scripts/installer_nsis.nsi
 
 ## 🔒 Säkerhetsrekommendationer
 
-- Kör alltid i venv
-- Aktivera endast funktioner du förstår
-- Kontrollera plugins manuellt innan installation
-- Kör helst offline
-- Dela inte din config offentligt
+- Kör alltid i venv  
+- Aktivera endast funktioner du förstår  
+- Kontrollera plugins manuellt innan installation  
+- Kör helst offline  
+- Dela inte din config offentligt  
 
 ---
 
@@ -205,3 +206,4 @@ Detta projekt levereras som lokalt/offline-system.
 Lägg till namn i `CONTRIBUTORS.md` om du bidrar.
 
 ---
+
