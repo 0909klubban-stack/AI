@@ -1,0 +1,94 @@
+===============================
+OFFLINE-AI – FÖRSTA START (VIKTIGT)
+===============================
+
+Detta program är till för att:
+- Kontrollera att din dator har rätt Python-version
+- Skapa en virtuell miljö (venv)
+- Installera alla nödvändiga paket automatiskt
+- Skapa mappar som saknas
+- Säkerställa att SAFE DEFAULT-läget är aktivt
+- Starta programmet efter installation (valfritt)
+
+Du ska ALLTID köra detta först innan du använder OFFLINE-AI.
+
+--------------------------------
+STEG 1 – INSTALLERA PYTHON
+--------------------------------
+
+1. Gå till: https://www.python.org
+2. Ladda ner senaste versionen (3.9 eller nyare)
+3. När du installerar:
+   ✅ Kryssa i "Add Python to PATH"
+4. Slutför installationen
+
+--------------------------------
+STEG 2 – STARTA INSTALLATIONEN
+--------------------------------
+
+1. Öppna mappen där OFFLINE-AI ligger
+2. Leta upp filen:
+
+   run_this_first.py
+
+3. Starta den på ETT av dessa sätt:
+
+ALTERNATIV A (dubbelklick):
+- Dubbelklicka på run_this_first.py
+
+ALTERNATIV B (via terminal):
+- Högerklicka i mappen
+- Välj "Öppna i terminal"
+- Skriv:
+
+  python run_this_first.py
+
+- Tryck ENTER
+
+--------------------------------
+VAD PROGRAMMET GÖR AUTOMATISKT
+--------------------------------
+
+✔ Kontrollerar att du har rätt Python-version  
+✔ Skapar venv (virtuell miljö)  
+✔ Installerar alla dependencies från requirements.txt  
+✔ Skapar mappar som saknas  
+✔ Lägger in SAFE DEFAULT-konfiguration  
+✔ Frågar om du vill starta OFFLINE-AI direkt  
+
+Du behöver inte göra något manuellt.
+
+--------------------------------
+STEG 3 – STARTA PROGRAMMET
+--------------------------------
+
+När installationen är klar får du frågan:
+
+"Do you want to start OFFLINE-AI now? (y/n)"
+
+- Skriv: y  → starta direkt
+- Skriv: n  → avsluta
+
+Du kan även starta manuellt senare med:
+
+venv\Scripts\activate
+python launcher.py
+
+eller:
+
+python launcher_gui.py
+
+--------------------------------
+VIKTIGT
+--------------------------------
+
+- Kör alltid i venv
+- Aktivera bara funktioner du förstår
+- SAFE DEFAULT är aktiverat från början
+- Allt är lokalt och offline
+
+--------------------------------
+KLART
+--------------------------------
+
+Nu är ditt OFFLINE-AI-system färdiginstallerat och redo att användas.
