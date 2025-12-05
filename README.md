@@ -1,209 +1,126 @@
-# OFFLINE-AI — SAFE DEFAULT + ALL FEATURES (OPT-IN)
+⚠️ ULTIMAT VARNING — LÄS DETTA INNAN DU GÖR NÅGOT
 
----
+Detta projekt är inte gjort för att köras av någon som inte vet exakt vad de gör.
+Det är komplext, oförutsägbart och absolut inget du bara klickar på för att “testa lite”.
 
-## 🛡️ OFFLINE-AI – SAFE DEFAULT (STANDARDLÄGE)
+Du är nu ansvarig för allt som händer från denna punkt.
+Om du fortsätter är det utan garanti, utan skydd och utan någon som helst hjälp.
 
-Detta är den **rekommenderade standardkonfigurationen** av OFFLINE-AI.  
-Alla avancerade, experimentella och potentiellt riskfyllda funktioner är:
+💀 INNAN DU KÖR — KOLLA ALLT
 
-> ❌ **AVSTÄNGDA SOM STANDARD**
+Innan du ens tänker på att starta något i detta repo:
+- Läs igenom hela koden.
+- Förstå vad varje fil gör.
+- Förstå vad varje funktion gör.
+- Dubbelkolla konfigurationer.
+- Ta ansvar för alla ändringar du gör.
 
-Systemet är:
+Det finns ingen garanti att något här är 100% säkert.
+Det finns ingen garanti att något fungerar.
+Det finns ingen garanti att något inte kraschar.
 
-- ✅ 100% offline  
-- ✅ Lokalt  
-- ✅ Utan moln  
-- ✅ Utan telemetri  
-- ✅ Utan fjärrstyrning  
-- ✅ Utan automatisk nedladdning  
+Om du kör utan att kolla — ditt problem, inte mitt.
 
----
+🔥 ÄNDRAR DU NÅGOT? DET ÄR PÅ DIG
 
-## ✅ Vad fungerar direkt?
+Modifierar du koden, funktioner, configs eller systemfiler:
+- Allt som går sönder är ditt fel.
+- Allt som slutar fungera är ditt fel.
+- Alla konstiga fel är ditt fel.
+- Alla buggar du orsakar är ditt fel.
 
-- Lokalt AI-system  
-- Offline-drift  
-- Stöd för lokala modeller  
-- Säker start utan internet  
-- Ingen plugin-körning  
-- Ingen auto-update  
-- Ingen bakgrundsövervakning  
+Ingen support.
+Ingen felsökning.
+Ingen räddning.
 
----
+Ditt misstag = ditt ansvar. Punkt.
 
-## ▶ Starta programmet (SAFE MODE)
+⚠️ SYSTEMET LOVAR INGENTING
 
-### Windows
-```powershell
-venv\Scripts\activate
-python launcher.py
-```
+Detta projekt ger:
+- inga garantier
+- ingen stabilitet
+- ingen hjälp
+- ingen säkerhetsbedömning
+- inget skydd mot felaktig användning
 
----
+Det här är ett offline-system utan nät, men det betyder inte att det är “snällt”.
+Det gör exakt det du säger åt det att göra — och om du säger fel, blir resultatet fel.
 
-## ⚙ Funktioner som FINNS men är AVSTÄNGDA
+🛑 FORTSÄTTER DU NU?
 
-Alla funktioner nedan finns installerade i systemet men är **AV** tills användaren själv aktiverar dem:
+Om du väljer att köra programmet, trots alla varningar:
+- Du gör det helt på egen risk
+- Du tar 100% ansvar
+- Du accepterar att allt som händer är ditt eget fel
 
-- Plugins  
-- Web Dashboard (lokal)  
-- System Monitor  
-- License-system  
-- Auto-update  
-- GPU-detektion  
-- Cloud bridge  
-- Modell-nedladdare  
-- Telemetri  
+Detta projekt kommer inte rädda dig.
+Ingen annan kommer heller rädda dig.
+Du är ensam med konsekvenserna av dina egna val.
 
-Styrs via:
-```
-config/features.json
-```
-eller via GUI:
-```
-python launcher_gui.py
-```
+✔️ SLUTORD — DU ÄR VARSAD
 
----
+Det här projektet är inte farligt i sig.
+Men felanvändning, modifieringar, okunnighet eller slumpmässiga ändringar kan göra att det beter sig kaotiskt eller slutar fungera.
 
-# ⚙️ OFFLINE-AI — ALL FEATURES (OPT-IN)
+Och allt detta är: DITT EGET FEL.
 
-Detta paket innehåller **HELA systemet med ALLA funktioner**, men fortfarande med:
+==============================================================
+OFFLINE-AI — FUNKTIONER (SÄKRA PLACEHOLDERS)
+==============================================================
 
-> ✅ **SAFE DEFAULT – allt är AV som standard**
+1) Starta Safe Mode
+   - Offline AI, minimal drift
+   - Ingen telemetri, inga plugins, inga auto-downloads
 
-Användaren väljer själv exakt vad som ska aktiveras.
+2) Starta GUI Launcher
+   - Grafiskt gränssnitt (lokal, offline)
 
----
+3) Starta Web Dashboard
+   - Lokalt på http://127.0.0.1:8080
 
-## 🧩 Innehåll i ALL FEATURES-versionen
+4) Lista modeller
+   - Visar installerade modeller
+   - Exempel: llama-3-8b, mistral-7b, gemma-2b
 
-- Flask Web Dashboard (lokal)  
-- Model Manager CLI  
-- Plugin-system (sandboxed)  
-- Plugin Manager  
-- Offline License Generator & Checker  
-- System Monitor (psutil)  
-- Portable Mode  
-- GUI Launcher  
-- PyInstaller EXE Builder  
-- Inno Setup & NSIS Installer-exempel  
-- Plugin Marketplace (lokal)  
+5) Info om modell
+   - Ger detaljer om en vald modell
 
----
+6) Ta bort modell
+   - Raderar vald modell från systemet
 
-## 🔧 Default säker konfiguration
+7) Installera plugin
+   - Installerar plugin från lokal fil
 
-```json
-{
-  "enable_gpu_check": false,
-  "enable_auto_update": false,
-  "enable_model_downloader": false,
-  "enable_telemetry": false,
-  "enable_cloud_bridge": false,
-  "enable_plugins": false,
-  "enable_license_system": false,
-  "enable_web_dashboard": false,
-  "enable_system_monitor": false
-}
-```
+8) Ladda plugins
+   - Aktiverar installerade plugins
 
----
+9) Skapa licens
+   - Offline licensgenerator
 
-## ▶ Start (ALL FEATURES)
+10) Kontrollera licens
+    - Verifierar offline-licens
 
-```bash
-python launcher_gui.py
-```
+11) Bygg EXE
+    - Skapar körbara filer (EXE) från koden
 
-eller:
+0) Avsluta
+   - Stänger programmet
 
-```bash
-python launcher.py
-```
+==============================================================
+SÄKERHETSREKOMMENDATIONER
+==============================================================
 
----
+- Kör alltid i virtuellt environment (venv)
+- Aktivera endast funktioner du förstår
+- Kontrollera plugins manuellt innan installation
+- Kör helst offline
+- Dela inte konfigurationer offentligt
 
-## 🌐 Web Dashboard (lokal)
+==============================================================
+OBS!
+==============================================================
 
-```bash
-python -m web.dashboard_app
-```
-
-Öppna i webbläsare:
-```
-http://127.0.0.1:8080
-```
-
----
-
-## 🗂 Model Manager
-
-```bash
-python scripts/model_manager.py list
-python scripts/model_manager.py info <modell>
-python scripts/model_manager.py remove <modell>
-```
-
----
-
-## 🧩 Plugin Manager
-
-Installera plugin:
-```bash
-python plugins/plugin_manager.py install plugins_market/plugin.zip
-```
-
-Kör plugins:
-```bash
-python plugins/plugin_loader.py
-```
-
----
-
-## 🔐 Licenssystem (offline)
-
-Skapa licens:
-```bash
-python optional_features/license_generator.py
-```
-
-Verifiera licens:
-```bash
-python optional_features/license_checker.py
-```
-
----
-
-## 🛠 Bygga EXE-filer
-
-```bash
-scripts\build_all.bat
-```
-
-Installer-exempel finns i:
-```
-scripts/installer_advanced.iss
-scripts/installer_nsis.nsi
-```
-
----
-
-## 🔒 Säkerhetsrekommendationer
-
-- Kör alltid i venv  
-- Aktivera endast funktioner du förstår  
-- Kontrollera plugins manuellt innan installation  
-- Kör helst offline  
-- Dela inte din config offentligt  
-
----
-
-## 📄 Licens & Bidrag
-
-Detta projekt levereras som lokalt/offline-system.  
-Lägg till namn i `CONTRIBUTORS.md` om du bidrar.
-
----
-
+- Detta system ger inga garantier för stabilitet eller säkerhet
+- All användning sker helt på egen risk
+- Alla modifieringar, ändringar eller experiment som går fel är **helt och hållet användarens eget ansvar**
